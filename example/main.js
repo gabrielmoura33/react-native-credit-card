@@ -128,8 +128,6 @@ export default class RNCreditCard extends Component {
                 <Image style={styles.background} source={require('./images/background.png')} resizeMode={'cover'} />
                 <CreditCard
                     style={{marginVertical: 10, marginHorizontal: 10, marginBottom: 0, elevation: 3, alignSelf: 'center'}}
-                    imageFront={require('./images/card-front.png')}
-                    imageBack={require('./images/card-back.png')}
                     shiny={false}
                     bar={false}
                     focused={this.state.focused}
